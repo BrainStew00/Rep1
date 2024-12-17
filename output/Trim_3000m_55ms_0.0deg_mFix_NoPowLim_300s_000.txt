@@ -1,0 +1,106 @@
+
+----------------------------------------------------------------
+                 Simulatore Cessna 172 Skyhawk                  
+                                                                
+ Gruppo di lavoro 2                                 Giugno 2024 
+----------------------------------------------------------------
+
+           Titolo simulazione: Trim
+
+----------------------------------------------------------------
+                      Condizioni iniziali
+----------------------------------------------------------------
+
+                        Quota =   3000 [m]
+                    Velocita' =  55.00 [m/s]
+              Angolo di rampa =   0.00 [°]
+           Durata simulazione =    300 [s]
+        Passo di integrazione =  0.010 [s]
+Simulazione a massa variabile:  NO
+       Limitazione di potenza:  NON Attiva
+
+----------------------------------------------------------------
+      Dati atmosferici e di potenza per la quota di 3000 m
+----------------------------------------------------------------
+
+             Temperatura    T = -4.5 [°C]
+               Pressione    P =  70107 [Pa]
+                 Densita' rho = 0.909 [kg/m^3]
+     Velocita' del Suono    a = 328.6 [m/s]
+             Potenza max PMax =    84 [kW]
+
+----------------------------------------------------------------
+                       Condizioni di trim
+----------------------------------------------------------------
+
+                            u = 54.96 [m/s]
+                            v = 0.00 [m/s]
+                            w = 2.09 [m/s]
+                            p = 0.00 [°/s]
+                            q = 0.00 [°/s]
+                            r = 0.00 [°/s]
+                          phi = 0.00 [°]
+                        theta = 2.17 [°]
+                          psi = 0.00 [°]
+                        alpha = 2.17 [°]
+                      delta_e = -4.83 [°]
+                          RPM = 1742.239380 [rpm]
+                       Spinta = 650.66 [N]
+                      Manetta = 20.19 [%]
+
+----------------------------------------------------------------
+                    Condizioni di stabilita'
+----------------------------------------------------------------
+
+      Il velivolo e' staticamente e dinamicamente stabile.
+
+
+             ------------ MODO FUGOIDE ------------
+
+                   Autovalori:		                
+                         1) lambda1 = -0.020 + i 0.251	
+                         2) lambda2 = -0.020 - i 0.251	
+
+                Pulsazione naturale = 0.252 [rad/s]	
+    Pulsazione del sistema smorzato = 0.251 [rad/s]	
+ Coefficiente di smorzamento (zita) = 0.077		    
+                Total damping (eta) = -0.020		    
+                            Periodo = 24.993 [s]		
+              Tempo di dimezzamento = 35.529 [s]		
+
+
+            ---------- MODO CORTO PERIODO ----------
+
+                   Autovalori:		                
+                         1) lambda1 = -2.668 + i 3.071	
+                         2) lambda2 = -2.668 - i 3.071	
+
+                Pulsazione naturale = 4.068 [rad/s]	
+    Pulsazione del sistema smorzato = 3.071 [rad/s]	
+ Coefficiente di smorzamento (zita) = 0.656		    
+                Total damping (eta) = -2.668		    
+                            Periodo = 2.046 [s]		
+              Tempo di dimezzamento = 0.260 [s]		
+
+
+----------------------------------------------------------------
+                      Sequenza dei comandi
+----------------------------------------------------------------
+
+              ------------------------------------
+                         Comandi AILERON 
+              ------------------------------------
+
+                      t      |   Value 
+                    ---------|-------------
+                        0.00 |     0.000000 
+                      300.00 |     0.000000 
+
+              ------------------------------------
+                         Comandi ELEVATOR 
+              ------------------------------------
+
+                      t      |   Value 
+                    ---------|-------------
+                        0.00 |     0.000000 
+           
